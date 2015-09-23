@@ -1,0 +1,8 @@
+Hallo <%= name %>,
+
+<% if (!substitutions.length) {  %>Morgen hast du keine Vertretungsstunden.<% } else { %> Deine Vertretungsstunden für morgen sind:
+<% substitutions.forEach(function(s) { %> - <%= s.hour %>. Stunde, Klasse: <%= s.course %>, Raum: <%= s.room %>, Fach: <%= s.subject %>, Info: <%= s.text %>
+<% }); }%>
+
+Viele Grüße,
+Dein Vertretungsplanroboter

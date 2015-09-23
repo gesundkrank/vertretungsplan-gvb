@@ -1,0 +1,29 @@
+{
+  "teachers": [{
+    "name": "Gerda",
+    "mail": "gerda@mailbox.org",
+    "id": "Ger"
+  }],
+  "website":{
+    "host": "gvb-berlin.de",
+    "path": "/svplan/lvplan/morgen/subst_001.htm",
+    "auth": {
+      "user": "lehrer",
+      "pass": "123456"
+    }
+  },
+  "mail" : {
+    "sender": {
+      "name": "Vertretungsplanroboter",
+      "mail": "vertretungsplanroboter@google.com"
+    },
+    "smtp": {
+      "service": "Gmail",
+      "auth": {
+        "user": "vertretungsplanroboter@google.com",
+        "pass": "12345"
+      }
+    }
+  }
+
+}

@@ -1,8 +1,8 @@
 # Vertretungsplan GVB
 
 This is just a small script to fetch the newest data from the substitution plan of the Gabriele-von-Bülow-Gymnasium in 
-Berlin. Since they are using [Untis](http://www.grupet.at/HTML/start.php) for their substitution planning this 
-project might also work on other websites.
+Berlin and send email reports. Since they are using [Untis](http://www.grupet.at/HTML/start.php) for their substitution 
+planning this project might also work on other websites.
  
 ## Install
 1. Install version [git](https://git-scm.com) and [node.js](https://nodejs.org) on your machine. 

@@ -2,7 +2,8 @@
   "teachers": [{
     "name": "Gerda",
     "mail": "gerda@mailbox.org",
-    "id": "Ger"
+    "id": "Ger",
+    "sendIfNoSubstitutions": true
   }],
   "website":{
     "host": "gvb-berlin.de",

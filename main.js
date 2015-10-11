@@ -83,7 +83,9 @@ function main() {
     getScheduleContent(conf.website, function (content) {
         conf.teachers.forEach(function (teacher) {
             const substitutions = getSubstitutionsForTeacherId(content, teacher.id);
-            sendSubstitutions(substitutions, teacher, transport, conf.mail.sender, template);
+            if (substitutions.length > 0 || teacher.sendIfNoSubstitutions) {
+                sendSubstitutions(substitutions, teacher, transport, conf.mail.sender, template);
+            }
         });
     });
 }
